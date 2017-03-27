@@ -1,12 +1,6 @@
-#CSE110 Assignment 1
-###Neng Zhang 1507992
-The screen shot does not show the 'top' button which is fixed at the right and bottom of the page
-![FireShot Capture 1 - Home Page - file____D__CSE110_index.html.png-1959.3kB][1]
-The screen shot which shows the 'top' button
-![homepage.jpg-161.5kB][2]
-##html code:
-
-```
+HTML code
+=====
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -159,7 +153,8 @@ The screen shot which shows the 'top' button
 
 </html>
 ```
-##CSS code:
+CSS code:
+======
 ```
 * {
     box-sizing: border-box;
@@ -425,8 +420,3 @@ tr:nth-child(odd) {
     box-shadow: 0 0 16px #2196F3
 }
 ```
-##Result of Validator:
-![!\[Alt text\](./QQ图片20170327175902.png)][3]
-  [1]: http://static.zybuluo.com/Neithardt/3j5cgmacrjj6yxek7dgbwyyw/FireShot%20Capture%201%20-%20Home%20Page%20-%20file____D__CSE110_index.html.png
-  [2]: http://static.zybuluo.com/Neithardt/uidbx78tijb1aj259m2l35pc/homepage.jpg
-  [3]: http://static.zybuluo.com/Neithardt/24cbthpzzlib8bw5vo0fyn4v/QQ%E5%9B%BE%E7%89%8720170327175902.png
