@@ -49,4 +49,5 @@ def build_model(X, y, nn_hdim, num_passes=20000, print_loss=False):
             print("Loss after iteration %i: %f" % (i, calculate_loss(model, X, y)))
     return model
 ````
-    four layers ANN, using backpropagation and batch gradient descent
+four layers ANN, using backpropagation and batch gradient descent
+
