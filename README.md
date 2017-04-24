@@ -1,6 +1,6 @@
 ANN excercies
 ======
-```
+```Python
 def build_model(X, y, nn_hdim, num_passes=20000, print_loss=False):
     num_examples = len(X)
     np.random.seed(0)
@@ -47,6 +47,6 @@ def build_model(X, y, nn_hdim, num_passes=20000, print_loss=False):
 
         if print_loss and i % 1000 == 0:
             print("Loss after iteration %i: %f" % (i, calculate_loss(model, X, y)))
-    return model
-    ```
+    return model```
+    
     four layers ANN, using backpropagation and batch gradient descent
