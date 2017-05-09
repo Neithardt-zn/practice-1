@@ -3,7 +3,7 @@ from sklearn import datasets, linear_model
 import matplotlib.pyplot as plt
 
 class Config:
-    nn_input_dim = 2
+    nn_input_dim = 3
     nn_output_dim = 2
     epsilon = 0.01
     reg_lamda = 0.01
